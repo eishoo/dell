@@ -67,3 +67,10 @@ nav ul {
     max-width: 1920px;
     margin: 0 auto;
 }
+.navbartag{
+    text-decoration: none;
+
+}
+.navbartag:hover{
+    color: #000;
+}
