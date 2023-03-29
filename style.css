@@ -5,6 +5,10 @@
     padding: 0px;
 }
 header {
+
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
     display: flex;
     height: 50px;
     justify-content: space-between;
@@ -41,7 +45,25 @@ nav ul {
     font-weight: 600;
 }
 .complete {
-    /* display: flex; */
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
     border: 1px solid black;
+    overflow: hidden;
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
 }
 
+.box img{
+    margin: 1em;
+   width: 400px;
+    height: 300px;
+
+}
+.navbar{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
